@@ -1,14 +1,14 @@
 public class PostScriptConverter extends Converter {
     
     public void makeLine() {
-        System.out.println("Linea con PDF");
+        System.out.println("Linea con PostScript");
     }
 
     public void makeParagraph() {
-        System.out.println("Párrafo con PDF");
+        System.out.println("Párrafo con PostScript");
     }
 
     public void makeTable() {
-        System.out.println("Tabla con PDF");
+        System.out.println("Tabla con PostScript");
     }
 }
