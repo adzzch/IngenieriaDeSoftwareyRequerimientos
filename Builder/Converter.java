@@ -1,19 +1,8 @@
-public class Converter {
-    private String document;
+interface Converter {
 
-    public void makeLine() {
+    public void makeLine();
 
-    }
+    public void makeParagraph();
 
-    public void makeParagraph() {
-
-    }
-
-    public void makeTable() {
-
-    }
-
-    public String getDocument() {
-        return "";
-    }
+    public void makeTable();
 }
